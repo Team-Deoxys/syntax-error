@@ -244,7 +244,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1368719813}
+      - m_Target: {fileID: 1368719812}
         m_TargetAssemblyTypeName: StartMenu, Assembly-CSharp
         m_MethodName: PlayGame
         m_Mode: 1
@@ -713,7 +713,6 @@ GameObject:
   - component: {fileID: 1368719809}
   - component: {fileID: 1368719812}
   - component: {fileID: 1368719813}
-  - component: {fileID: 1368719814}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -802,9 +801,9 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1368719808}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 447eaa4af6c3b4e36bb0bf0a10285e37, type: 3}
+  m_Script: {fileID: 11500000, guid: 7a148dce657d04807ba610104279cea7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1368719813
@@ -816,21 +815,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1368719808}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a148dce657d04807ba610104279cea7, type: 3}
+  m_Script: {fileID: 11500000, guid: 800fe55b361c4e84c9e4ff98f9c778a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1368719814
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1368719808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a148dce657d04807ba610104279cea7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  questionFile: Questions.txt
+  dFile: d.txt
 --- !u!1 &1583555215
 GameObject:
   m_ObjectHideFlags: 0
@@ -988,7 +977,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1368719813}
+      - m_Target: {fileID: 1368719812}
         m_TargetAssemblyTypeName: StartMenu, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
